@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <div>
+      <input type="number" id="id" placeholder="Id de usuario"/>
+      <button onclick="printUser()">Ver usuario</button>  
+    </div>
+    <div id="user">
+      <div>
+        <input type="text" id="name" disabled/>
+      </div>
+      <div>
+        <textarea id="items" disabled></textarea>
+      </div>
+      <div>
+        <img id="image"/>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src='/javascripts/script.js'></script>
+  </body>
+</html>
